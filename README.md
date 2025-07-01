@@ -4,13 +4,12 @@ This is a simple front-end web project built using **HTML**, **CSS**, and **Java
 It can serve as a foundational template or landing page for a Java Full Stack web application.
 
 ## 📁 Project Structure
-Java-Full-Stack/
-├── index.html # Main HTML file
-├── css/
-│ └── style.css # Stylesheet
-└── js/
+Java-Full-Stack/<br>
+├── index.html # Main HTML file<br>
+├── css/<br>
+│ └── style.css # Stylesheet<br>
+└── js/<br>
 └── script.js # JavaScript logic
-
 
 ## 🚀 Features
 
