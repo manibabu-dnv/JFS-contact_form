@@ -7,7 +7,7 @@ It can serve as a foundational template or landing page for a Java Full Stack we
 Java-Full-Stack/<br>
 ├── index.html # Main HTML file<br>
 ├── css/<br>
-│ └── style.css # Stylesheet<br>
+ └── style.css # Stylesheet<br>
 └── js/<br>
 └── script.js # JavaScript logic
 
