@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice & Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+
+    <main>
+        <p id="p-head"><b>Personal Details</b></p>
+        <form action="/submit" method="post" id="entire-form">
+
+            <label for="fname">First Name</label><br/>
+            <input type="text" id="fname" name="fname" placeholder="first name" required><br/><br/>
+
+            <label for="lname">Last Name</label><br/>
+            <input type="text" id="lname" name="lname"><br/><br/>
+
+            <label for="email">Email ID</label><br/>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br/><br/>
+
+            <label for="pass">Password</label><br/>
+            <input type="password" id="pass" name="pass" placeholder="Enter your password" required><br/><br/>
+
+            <label for="dob">Date of Birth</label><br/>
+            <input type="date" id="dob" name="dob" required><br/><br/>
+
+            <div id="gender-div">
+                <span>Gender</span><br/>
+                <label class="gender-option">
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+                <label class="gender-option">
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+            </div>
+
+            <fieldset id="fs-ci">
+                <legend>Contact Info</legend>
+                <label for="phone">Phone</label><br/>
+                <input type="text" id="phone" name="phone"><br/><br/>
+
+                <label for="country">Country</label><br/>
+                <select id="country" name="country">
+                    <option value="none">---Choose your country</option>
+                    <option value="in">India</option>
+                    <option value="sf">South Africa</option>
+                    <option value="us">US</option>
+                </select>
+            </fieldset><br/>
+
+            Your Message <br/><br/>
+            <textarea rows="6" cols="67" placeholder="Write your message here....." style="padding: 10px;"></textarea><br/><br/>
+
+            <div style="display: flex; gap: 10px;">
+    <button type="button">Submit</button>
+    <button type="reset">Reset</button>
+</div>
+
+        </form>
+    </main>
+
+   
+</body>
+     <script src="js/script.js"></script>
+
+</html>
